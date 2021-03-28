@@ -1,0 +1,24 @@
+﻿BASIC PROGRAMMING - ANSWER
+
+
+1. Integer
+2. String
+3. Output: 113
+4. Output: 2
+5. Output: 3566 Golden Street Miami
+
+
+
+
+        FLAKY TEST - ANSWER
+
+
+
+
+1. Flaky Test adalah tes yang memberikan hasil yang berbeda, terkadang test tersebut gagal dan pada suatu waktu dengan percobaan berkali-kali test tersebut berhasil meskipun tidak ada perubahan pada code. Penyebabnya dapat terjadi karna ada code terbaru yang ditulis, kesalahan pada testing ataupun faktor eksternal contohnya kegagalan mendapatkan data dari database. Pada automation testing di sisi QA, flaky test dapat ditelusuri dari tidak konsistennya assertion timing, adanya  tergantungnya test order dan pengecekan end to end test. Sedangkan dari sisi engineer harus dilakukan pengecekan code dan build pada engine.
+
+
+2. Untuk melakukan test automate pada AJAX asynchronus menggunakan FluentWait atau WebDriverWait
+
+
+3. CAPTCHA tidak bisa diautomate karena high security untuk mengecek apakah yang menginput adalah manusia, karena itu jika pada waktu automation test terdapat captcha, maka memberikan delay pada script automation untuk test engineer menginputkan CAPTCHA secara manual atau ketika melakukan test.
